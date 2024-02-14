@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.logo img
+{
+    width: 30px;
+    
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    padding-top: 5px;  
+}
+
+nav li
+{
+    padding-right: 30px;
+    color: #a9a5a5;
+}
+
+nav
+{
+    background-color: black;
+    height: 45px;
+    
+}
+
+.box
+{
+    background-image: url("listening-to-music-headphones.jpg");
+    background-size: cover;
+    width: 75vw;
+    height: 41vw;
+    margin: 23px auto;
+    border-radius: 1%;
+    padding: 23px;
+    color: rgb(205, 85, 103);
+}
+
+.songlist
+{
+   margin-top: 20px;
+   color: black;
+}
+
+.item1
+{
+   width: 400px;
+   height: 40px;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+
+.item1 img
+{
+    margin-left: 6px;
+    border-radius: 50%;
+}
+
+footer
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   color: white;
+}
+
+#progressbar
+{
+   
+    width: 80%;
+}
+
+.song
+{
+    margin-left: -850px;
+}
